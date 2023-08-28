@@ -47,10 +47,10 @@ export default function Home() {
           <div className='max-w-3xl m-auto'>
             <h3 className='text-3xl py-2'>Project Portfolio</h3>
             <a href='https://github.com/alt7r/cph_dashboard' target='_blank'><p className='underline py-2'>Data Visualization Dashboard</p></a>
-            <img src='/port3.png' className='rounded-sm'></img>
+            <img src='/images/port3.png' className='rounded-sm'></img>
             <a href='https://alt7r.github.io' target='_blank'><p className='underline py-2'>Previous Portfolio Websites</p></a>
-            <img src='/port1.png' className='rounded-sm'></img>
-            <img src='/port2.png' className='rounded-sm'></img>
+            <img src='/images/port1.png' className='rounded-sm'></img>
+            <img src='/images/port2.png' className='rounded-sm'></img>
           </div>
         </section>
 
