@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import {AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -47,10 +48,25 @@ export default function Home() {
           <div className='max-w-3xl m-auto'>
             <h3 className='text-3xl py-2'>Project Portfolio</h3>
             <a href='https://github.com/alt7r/cph_dashboard' target='_blank'><p className='underline py-2'>Data Visualization Dashboard</p></a>
-            <img src='https://drive.google.com/file/d/10PvyUzgtZIZ86ubUn4m1nMovQMw5ElTz/view' className='rounded-sm'/>
+            <Image
+              src='https://drive.google.com/file/d/1ZeYDGeDD1GatOYEhKQqBwiF1XP20ZMml/view?usp=drive_link'
+              width={500}
+              height={500}
+              alt='Port1'
+            />
             <a href='https://alt7r.github.io' target='_blank'><p className='underline py-2'>Previous Portfolio Websites</p></a>
-            <img src='https://drive.google.com/file/d/1ZeYDGeDD1GatOYEhKQqBwiF1XP20ZMml/view' className='rounded-sm'/>
-            <img src='https://drive.google.com/file/d/1B_ClvD4JywxTh9xtlWCkiuI0W3DScYhd/view' className='rounded-sm'/>
+            <Image
+              src='https://drive.google.com/file/d/1B_ClvD4JywxTh9xtlWCkiuI0W3DScYhd/view?usp=drive_link'
+              width={500}
+              height={500}
+              alt='Port2'
+            />
+            <Image
+              src='https://drive.google.com/file/d/10PvyUzgtZIZ86ubUn4m1nMovQMw5ElTz/view?usp=drive_link'
+              width={500}
+              height={500}
+              alt='Port3'
+            />
           </div>
         </section>
 
