@@ -47,7 +47,7 @@ export default function Home() {
           <div className='max-w-3xl m-auto'>
             <h3 className='text-3xl py-2'>Project Portfolio</h3>
             <a href='https://github.com/alt7r/cph_dashboard' target='_blank'><p className='underline'>Data Visualization Dashboard</p></a>
-            <a href='#' target='_blank'><p className='underline'>Previous Portfolio Website</p></a>
+            <a href='https://alt7r.github.io' target='_blank'><p className='underline'>Previous Portfolio Website</p></a>
           </div>
         </section>
 
