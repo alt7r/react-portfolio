@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import {AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
-import Image from 'next/image'
 
 export default function Home() {
   return (
