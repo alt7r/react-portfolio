@@ -1,113 +1,64 @@
+import Head from 'next/head'
 import Image from 'next/image'
+import {AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div>
+      <main className='bg-white px-10 '>
+        <section className='min-h-[50vh]'>
+          <nav className='py-10 mb-12 flex justify-between'>
+            <h1 className='text-xl'>portfolio</h1>
+            <ul className='flex items-center'>
+              {/* <li className='cursor-pointer text2xl'>🌙</li> */}
+              <li><a className='bg-gradient-to-r from-red-500 to-purple-500 text-white px-4 py-2 rounded-md ml-8' href='/Résumé.pdf' target='_blank'> 📝 Full Resume</a></li>
+            </ul>
+          </nav>
+          <div className='text-center p-10'>
+            <h2 className='text-5xl py-2 text-purple-700 font-medium'>Anjelo Cahinosayan</h2>
+            <h3 className='text-2xl py-2'>Student</h3>
+            <p text-md py-5 leading-8 text-gray-800>
+              Studying for a Diploma in Applied Artifical Intelligence at Temasek Polytechnic
+            </p>
+          </div>
+          <div className='text-5xl flex justify-center gap-10 py-3 text-gray-600'>
+            <a href='https://www.linkedin.com/in/anjelo-cahinosayan-b3a3591b7/' target='_blank'><AiFillLinkedin /></a>
+            <a href='https://www.youtube.com/channel/UCoJThvGnYwA9-LnTNBwbdCw' target='_blank'><AiFillYoutube /></a>
+          </div>
+        </section>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <section className='py-2'>
+          <div className='max-w-3xl m-auto'>
+            <h3 className='text-3xl py-2'>Skills</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'><span className='font-bold'>Web Development:</span> In the last few years I have familiarized myself with both frontend <span className='text-purple-600 font-bold'>(vanilla HTML/CSS/JS)</span> and backend development <span className='text-purple-600 font-bold'>(AWS serverless architecture using S3, API Gateway, Lambda, RDS)</span>. Recently I have been trying my hand at the latest frameworks such as React and Tailwind. I also have some experience in App Dev <span className='text-purple-600 font-bold'>QA Testing.</span></p>
+            <p className='text-md py-2 leading-8 text-gray-800'><span className='font-bold'>Data Analysis & Modelling:</span> During my polytechnic education I was exposed to data visualization techiniques, using technologies such as <span className='text-purple-600 font-bold'>Python (Pandas, Tensorflow, Keras), KNIME and PowerBI.</span></p>
+          </div>
+        </section>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        <section className='py-2'>
+          <div className='max-w-3xl m-auto'>
+            <h3 className='text-3xl py-2'>Experience</h3>
+            <p className='text-md leading-8 text-gray-800'><span className='font-bold'>Feb 2021 - April 2021: </span>Focus Digitech, Intern. Mobile Application QA Testing.</p>
+            <p className='text-md leading-8 text-gray-800'><span className='font-bold'>Mar 2023: </span>Focus Digitech, Part Time Temp. Website QA Testing.</p>
+          </div>
+        </section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        <section className='py-2'>
+          <div className='max-w-3xl m-auto'>
+            <h3 className='text-3xl py-2'>Project Portfolio</h3>
+            <a href='https://github.com/alt7r/cph_dashboard' target='_blank'><p className='underline'>Data Visualization Dashboard</p></a>
+            <a href='#' target='_blank'><p className='underline'>Previous Portfolio Website</p></a>
+          </div>
+        </section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+        <section className='py-2 pb-[10rem]'>
+          <div className='max-w-3xl m-auto'>
+            <h3 className='text-3xl py-2'>Contact Me</h3>
+            <p>+65 9675 5822</p>
+            <p>anjelocahinosayan@gmail.com</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
 }
