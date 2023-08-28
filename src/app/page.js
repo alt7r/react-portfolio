@@ -38,16 +38,19 @@ export default function Home() {
         <section className='py-2'>
           <div className='max-w-3xl m-auto'>
             <h3 className='text-3xl py-2'>Experience</h3>
-            <p className='text-md leading-8 text-gray-800'><span className='font-bold'>Feb 2021 - April 2021: </span>Focus Digitech, Intern. Mobile Application QA Testing.</p>
-            <p className='text-md leading-8 text-gray-800'><span className='font-bold'>Mar 2023: </span>Focus Digitech, Part Time Temp. Website QA Testing.</p>
+            <p className='text-md leading-8 text-gray-800 py-2'><span className='font-bold'>Feb 2021 - April 2021: </span>Focus Digitech, Intern. Mobile Application QA Testing.</p>
+            <p className='text-md leading-8 text-gray-800 py-2'><span className='font-bold'>Mar 2023: </span>Focus Digitech, Part Time Temp. Website QA Testing.</p>
           </div>
         </section>
 
         <section className='py-2'>
           <div className='max-w-3xl m-auto'>
             <h3 className='text-3xl py-2'>Project Portfolio</h3>
-            <a href='https://github.com/alt7r/cph_dashboard' target='_blank'><p className='underline'>Data Visualization Dashboard</p></a>
-            <a href='https://alt7r.github.io' target='_blank'><p className='underline'>Previous Portfolio Website</p></a>
+            <a href='https://github.com/alt7r/cph_dashboard' target='_blank'><p className='underline py-2'>Data Visualization Dashboard</p></a>
+            <img src='/port3.png' className='rounded-sm'></img>
+            <a href='https://alt7r.github.io' target='_blank'><p className='underline py-2'>Previous Portfolio Websites</p></a>
+            <img src='/port1.png' className='rounded-sm'></img>
+            <img src='/port2.png' className='rounded-sm'></img>
           </div>
         </section>
 
