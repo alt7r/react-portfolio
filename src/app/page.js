@@ -37,8 +37,9 @@ export default function Home() {
 
         <section className='py-2'>
           <div className='max-w-3xl m-auto'>
-            <h3 className='text-3xl py-2'>Experience</h3>
+            <h3 className='text-3xl py-2'>Work Experience</h3>
             <p className='text-md leading-8 text-gray-800 py-2'><span className='font-bold'>Feb 2021 - April 2021: </span>Focus Digitech, Intern. Mobile Application QA Testing.</p>
+            <p className='text-md leading-8 text-gray-800 py-2'><span className='font-bold'>Feb 2022 - July 2022: </span>White Restaurant, Service Crew.</p>
             <p className='text-md leading-8 text-gray-800 py-2'><span className='font-bold'>Mar 2023: </span>Focus Digitech, Part Time Temp. Website QA Testing.</p>
           </div>
         </section>
